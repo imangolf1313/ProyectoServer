@@ -1,10 +1,15 @@
 {
-    "type":"mysql",
-    "host":"localhost",
-    "port":"3306",
-    "username":"root",
-    "password":"",
-    "database":"NestJSA",
+    "type":"postgres",
+    "host":"ec2-54-161-239-198.compute-1.amazonaws.com",
+    "port":"5432",
+    "username":"szfupfuuehbavs",
+    "password":"68bfbd7b4f887765e91b3c44d63918f8ed674d3d92ca56ced573058a33d21c62",
+    "database":"dacod815ukl8t9",
+    "extra":{
+        "ssl":{
+            "rejectUnauthorized":false
+        }
+    },
     "entities":[
         "dist/**/*.entity{.ts,.js}"
     ],
