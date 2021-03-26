@@ -20,9 +20,6 @@
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
-  "engines": {
-    "node": "12.18.1"
-  },
   "dependencies": {
     "@nestjs/common": "^7.6.13",
     "@nestjs/core": "^7.6.13",
@@ -36,6 +33,9 @@
     "rimraf": "^3.0.2",
     "rxjs": "^6.6.6",
     "typeorm": "^0.2.31"
+  },
+  "engines": {
+    "node": "12.18.1"
   },
   "devDependencies": {
     "@nestjs/cli": "^7.5.6",
