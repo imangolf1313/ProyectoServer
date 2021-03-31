@@ -12,7 +12,7 @@ import { join } from 'path';
   
   imports: [
     ServeStaticModule.forRoot({
-      renderPath: join(__dirname, '..', 'avatars')
+      renderPath: join(__dirname, '..', 'avatars'),
     }),
     TypeOrmModule.forRoot(),
     UsuariosModule,
